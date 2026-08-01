@@ -11,8 +11,3 @@ services:
         generateValue: true
       - key: PORT
         value: 3001
-    # 持久化 SQLite 数据库（避免重启丢数据）
-    disk:
-      name: joydata
-      mountPath: /data
-      sizeGB: 1
